@@ -1,7 +1,7 @@
 
 # About Me
 My name is *Reinell Emmanuel B. Avila*, you may call me **Emman**,\
-I am *20 years old* (Born in October 7,2005),\
+I am *20 years old* (Born in October 7, 2005),\
 I like to listen to *music*, play *video games*, and watch *animated series* and *movies*.
 
 # School
