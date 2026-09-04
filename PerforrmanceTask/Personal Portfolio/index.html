@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Reinell Emmanuel B. Avila — <i>"The odds may be low but never zero"</i></p>
+    </header>
+
+    <!-- About Me  -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="img/profilePicture.png" alt="Emman's Profile Picture">
+        <p>Wazaaa! I'm <b>Emman</b> from <i>PWU JASMS, Quezon City.</i> (Born in October 7, 2005), I am a fast learner; there are some things that will take some time, but in the very end, I will still get the job done. :)</p>
+    </section>
+
+    <!-- Educational Background  -->
+    <section id="education">
+        <h2>Educational Background</h2>
+        <div>
+            <h3>Elementary</h3>
+            <p> • New Filipino Private School (2011 - 2015)</p>
+            <p> • Sto. Nino Parochial School (2015 - 2016)</p>
+            <p> • Hope Christian Academy (2016 - 2017)</p>
+        </div>
+        <div>
+            <h3>Highschool</h3>
+            <p> • Hope Christian Academy (2017 - 2020)</p>
+            <p> • San Francisco Highschool (2020 - 2021)</p>
+        </div>
+        <div>
+            <h3>Future College</h3>
+            <p> • UP Diliman (2027 - Future)</p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="project">
+        <h2>Projects</h2>
+        <div>
+            <h3>2D Retro Style Animation</h3>
+            <video src="vid/animationlol.mp4" controls>Short 2D animation made in Wick Editor</video>
+            <p>My first short story animation I made using the Wick Editor. I try to capture the old animation style from YouTube I used to watch in the 2010s. :)</p>
+        </div>
+        <div>
+            <h3>Fingerboard 3D Model</h3>
+            <img src="img/blender.gif" alt="GIF of a fingerboard model made from Blender">
+            <p>My first 3D model and animation made in Blender. It is a simple preview of the skateboard I made in a looping GIF.</p>
+        </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <!-- text input -->
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <!-- email input -->
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <!-- date input -->
+            <label for="appointment">Preferred Appointment Date:</label>
+            <input type="date" name="appointment" id="appointment">
+
+            <!-- checkboxes -->
+            <p>Interests:</p>
+            <label for="coding"><input type="checkbox" name="interests" id="coding" value="coding"> Coding</label>
+            <label for="design"><input type="checkbox" name="interests" id="design" value="design"> Design</label>
+            <label for="music"><input type="checkbox" name="interests" id="music" value="music"> Music</label>
+
+            <!-- color picker -->
+            <label for="theme">Theme Preference:</label>
+            <input type="color" name="theme" id="theme">
+
+            <!-- file upload -->
+            <label for="resume">Upload Resume:</label>
+            <input type="file" name="resume" id="resume">
+
+            <!-- form action buttons -->
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </form>
+    </section>
+</body>
+</html>
