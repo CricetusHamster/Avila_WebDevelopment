@@ -35,7 +35,8 @@ function startGame(playerChoice){
             break;
         case "You Lose":
             computerCounter++
-            document.getElementById("computerScore").innerHTML = "Computer Score: " + computerCounter
+            document.getElementById("computerScore").innerHTML = "Computer Score: " + computerCounter;
+            break;
     }
     
     if(playerCounter === 5) {
